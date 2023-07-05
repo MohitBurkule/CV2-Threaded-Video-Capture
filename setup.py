@@ -11,7 +11,7 @@ import os
 from setuptools import setup, find_packages
 
 # Meta information
-version = open('VERSION').read().strip()
+version = 1#open('VERSION').read().strip()
 dirname = os.path.dirname(__file__)
 
 # Save version and author to __meta__.py
